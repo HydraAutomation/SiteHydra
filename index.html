@@ -4,17 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="shortcut icon" href="img/favicon.svg" />
-    <title>Hydra Automation</title>
+
     <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
     <link rel="stylesheet" href="./css/normalize.css" />
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+    crossorigin="anonymous"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <title>Hydra Automation</title>
   </head>
   <body>
     <!--First Section - O maior bot do brasil-->
@@ -26,11 +32,11 @@
             <img src="./img/logoheader.svg" alt="Logo Header" />
             <nav>
               <ul class="nav-links-cont">
-                <li><a href="#quemsomos" class="link-nav">Quem somos</a></li>
+                <li><a href="#secondsection" class="link-nav">Quem somos</a></li>
                 <li>
-                  <a href="#comofunciona" class="link-nav">Como funciona</a>
+                  <a href="#thirdsection" class="link-nav">Como funciona</a>
                 </li>
-                <li><a href="#produtos" class="link-nav">Produtos</a></li>
+                <li><a href="#fourthsection" class="link-nav">Produtos</a></li>
                 <li><a href="#feedbacks" class="link-nav">Feedbacks</a></li>
                 <li><a href="#contato" class="link-nav">Contato</a></li>
               </ul>
@@ -39,11 +45,11 @@
         </div>
       </header>
       <div class="container">
-        <h1 class="main-title">Hydra<span style="color: red">Bot</span></h1>
-        <p class="main-subtitle">
+        <h1 class="main-title" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1200">Hydra<span style="color: red">Bot</span></h1>
+        <p class="main-subtitle" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1500">
           O maior bot de Automações para compras do Brasil!
         </p>
-        <button class="know-more-button">Saiba mais</button>
+        <button class="know-more-button" data-aos="fade-up" data-aos-delay="1500" data-aos-duration="800">Saiba mais</button>
       </div>
     </section>
     <img
@@ -55,7 +61,7 @@
     <!--Second Section - O que é-->
     <section id="secondsection">
       <div class="container">
-        <h2 class="subtitle-second">
+        <h2 class="subtitle-second" data-aos="zoom-in">
           O que é o <span style="color: red">HydraBot</span>
         </h2>
         <p class="text-second-section">
@@ -106,18 +112,29 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="product-card">
-
+              <img src="./img/logoheader.svg" alt="HydraBot">
+              <h3 class="product-subtitle">Hydra <span style="color: red">BOT</span></h3>
+              <p class="text-product">Sistema automatizado<br/> de checkout em nike.com.br.</p>
+              <p class="value-product">$600,00<span>/MÊS</span></p>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="product-card">
+              <img src="./img//hydravtex.svg" alt="HydraVtex">
+              <h3 class="product-subtitle">Hydra <span style="color: red;">VTEX</span></h3>
+              <p class="text-product">Sistema automatizado de checkout em artwalk, magicfeet e authenticfeet.</p>
+              <p class="value-product">$600,00<span>/MÊS</span></p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <script src="./js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer>
+      AOS.init({ once: true });
+    </script>
+    <script src="/js/index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
