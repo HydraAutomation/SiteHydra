@@ -12,18 +12,22 @@
     <link rel="stylesheet" href="./css/normalize.css" />
 
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-    crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
     />
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <title>Hydra Automation</title>
   </head>
   <body>
-    <!--First Section - O maior bot do brasil-->
+    <!--O maior bot do brasil-->
     <section id="mainsection">
       <header>
         <img src="./img/bloob-header.svg" alt="Bloob" class="bloob" />
@@ -32,24 +36,45 @@
             <img src="./img/logoheader.svg" alt="Logo Header" />
             <nav>
               <ul class="nav-links-cont">
-                <li><a href="#secondsection" class="link-nav">Quem somos</a></li>
                 <li>
-                  <a href="#thirdsection" class="link-nav">Como funciona</a>
+                  <a href="#quem-somos" class="link-nav">Quem somos</a>
                 </li>
-                <li><a href="#fourthsection" class="link-nav">Produtos</a></li>
+                <li>
+                  <a href="#como-funciona" class="link-nav">Como funciona</a>
+                </li>
+                <li><a href="#o-que-oferecemos" class="link-nav">Produtos</a></li>
                 <li><a href="#feedbacks" class="link-nav">Feedbacks</a></li>
-                <li><a href="#contato" class="link-nav">Contato</a></li>
+                <li><a href="#nosso-contato" class="link-nav">Contato</a></li>
               </ul>
             </nav>
           </div>
         </div>
       </header>
       <div class="container">
-        <h1 class="main-title" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1200">Hydra<span style="color: red">Bot</span></h1>
-        <p class="main-subtitle" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1500">
+        <h1
+          class="main-title"
+          data-aos="fade-right"
+          data-aos-delay="500"
+          data-aos-duration="1200"
+        >
+          Hydra<span style="color: red">Bot</span>
+        </h1>
+        <p
+          class="main-subtitle"
+          data-aos="fade-right"
+          data-aos-delay="1000"
+          data-aos-duration="1500"
+        >
           O maior bot de Automações para compras do Brasil!
         </p>
-        <button class="know-more-button" data-aos="fade-up" data-aos-delay="1500" data-aos-duration="800">Saiba mais</button>
+        <button
+          class="know-more-button"
+          data-aos="fade-up"
+          data-aos-delay="1500"
+          data-aos-duration="800"
+        >
+          Saiba mais
+        </button>
       </div>
     </section>
     <img
@@ -58,8 +83,8 @@
       class="logo-first-section"
     />
 
-    <!--Second Section - O que é-->
-    <section id="secondsection">
+    <!--Quem somos-->
+    <section id="quem-somos">
       <div class="container">
         <h2 class="subtitle-second" data-aos="zoom-in">
           O que é o <span style="color: red">HydraBot</span>
@@ -81,8 +106,8 @@
       alt="second-bloob"
     />
 
-    <!-- Third Section -->
-    <section id="thirdsection">
+    <!-- Como Funciona -->
+    <section id="como-funciona">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -104,7 +129,8 @@
       </div>
     </section>
 
-    <section id="fourthsection">
+    <!-- O que oferecemos -->
+    <section id="o-que-oferecemos">
       <div class="container">
         <h2 class="subtitle-second">
           O que <span style="color: red">oferecemos</span>
@@ -112,18 +138,133 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="product-card">
-              <img src="./img/logoheader.svg" alt="HydraBot">
-              <h3 class="product-subtitle">Hydra <span style="color: red">BOT</span></h3>
-              <p class="text-product">Sistema automatizado<br/> de checkout em nike.com.br.</p>
-              <p class="value-product">$600,00<span>/MÊS</span></p>
+              <img src="./img/logoheader.svg" alt="HydraBot" />
+              <h3 class="product-subtitle">
+                Hydra <span style="color: red">BOT</span>
+              </h3>
+              <p class="text-product">
+                Sistema automatizado<br />
+                de checkout em nike.com.br.
+              </p>
+              <p class="value-product"><span class="💵">$</span>600,00<span>/MÊS</span></p>
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="product-card">
-              <img src="./img//hydravtex.svg" alt="HydraVtex">
-              <h3 class="product-subtitle">Hydra <span style="color: red;">VTEX</span></h3>
-              <p class="text-product">Sistema automatizado de checkout em artwalk, magicfeet e authenticfeet.</p>
-              <p class="value-product">$600,00<span>/MÊS</span></p>
+            <div class="product-card second-card">
+              <img src="./img//hydravtex.svg" alt="HydraVtex" />
+              <h3 class="product-subtitle">
+                Hydra <span style="color: red">VTEX</span>
+              </h3>
+              <p class="text-product">
+                Sistema automatizado de checkout em artwalk, magicfeet e
+                authenticfeet.
+              </p>
+              <p class="value-product"><span class="💵">$</span>600,00<span>/MÊS</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feedbacks -->
+    <section id="feedbacks">
+      <div class="container">
+        <h2 class="subtitle-second">
+          Alguns <span style="color: red">feedbacks</span>
+        </h2>
+
+        <div class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="feedback-card">
+                  <div class="author-name">Beatriz Santos</div>
+                  <div class="author-instagram">@bea_sntos</div>
+                  <p class="author-comment">Comecei a utilizar o Hydra em março desse ano, só tenho elogios para o bot, peguei vários lançamentos e restocks, os caras sempre dispostos a tirar todas as dúvidas e a sempre atualizar o bot pra rodar da melhor maneira possível, praticamente todo lançamento é cop, os caras são FODAS! 
+                    de longe o melhor bot do mercado!!! 🚀🚀🚀❤️‍🔥</p>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="feedback-card">
+                  <div class="author-name">Sneakers Purple</div>
+                  <div class="author-instagram">@sneakers.purple</div>
+                  <p class="author-comment">Hydra bot foi um divisor de águas pra mim em 2021, sempre curti sneakers e poder trabalhar com isso, graças ao Hydra consegui abrir minha loja e tem sido foda! Obrigado Hydra Bot 😈🔥</p>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="feedback-card">
+                  <div class="author-name">Blast Grails</div>
+                  <div class="author-instagram">@blastgrails</div>
+                  <p class="author-comment">Feedback 100%, entrei no Hydra em março e desde então foram cerca de 50 cops 🚀 e o bot está melhorando cada vez mais.</p>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="feedback-card">
+                  <div class="author-name">Pablito Martinellis</div>
+                  <div class="author-instagram">@pablitomartinellis</div>
+                  <p class="author-comment">Cheguei num ponto em que não conseguia mais dar cop na nike, nem manualmente, nem com macro, não tinha jeito. Depois do hydra dei cop em 90% dos tênis que eu quis pegar.
+                    Sem falar da forma rápida que o BOT se adapta às mudanças, quase que diárias, do site da NIKE. RECOMENDO</p>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="feedback-card">
+                  <div class="author-name">Alexandre Henrell</div>
+                  <div class="author-instagram">@alehenrell</div>
+                  <p class="author-comment">Mano passando pra dar um salve sobre o Hydragod. O bot cumpre seu papel tranquilamente, facinho de usar e rápido demais. Faz dois meses que uso o Hydra e já perdi a conta dos cops que ele deu, o cop do Dunk Parra as 10:01 logo no primeiro dia de uso foi incrível, de lá pra cá é só cop. Suporte do Hydra tbm é surreal, programadores sempre procurando inovar pra surrar a Nike ! Valor acessível e só benefícios, recomendo demais!</p>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="feedback-card">
+                  <div class="author-name">D.K.ICKS Sneakers</div>
+                  <div class="author-instagram">@dkickssneakers</div>
+                  <p class="author-comment">Po, sem palavras mano. Desde que entrei não passo um drop praticamente em branco. Fora a assistente que vcs me deram também. Hydra Vip tá como?! Kkkkk!!! Agradeço demais! 👊💚</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="nosso-contato">
+      <div class="container">
+        <h2 class="subtitle-second">Nosso <span style="color:red">contato</span></h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact-title-container">
+              <h3 class="contact-subtitle">Entre em contato conosco via <span style="color: red">Instagram</span></h3>
+            </div>
+          </div>
+          <div class="col-md-6">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="footer">
+      <div class="first-footer-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 footer-logo-container">
+              <img src="/img/logo-footer.svg"/>
+            </div>
+            <div class="col-md-5 footer-desc-container">
+              <p class="footer-description">O Hydra Bot é um sistema de automação de compras em determinados sites. 
+                Esses programas são popularmente conhecidos como BOT, que quando instalado pode ser configurado pelo Botter.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="second-footer-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="rights">Todos os direitos reservados - 2021 © <span style="color: red;">HydraBot</span></p>
+            </div>
+            <div class="col-md-6">
+              <p class="copyright">Desenvolvido por <a href="https://asapdesigns.com.br" target="_blank">Asap Desings</a></p>
             </div>
           </div>
         </div>
@@ -134,11 +275,32 @@
     <script defer>
       AOS.init({ once: true });
     </script>
-    <script src="/js/index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script>
+      new Splide( '.splide', {
+        autoplay: true,
+        rewind: true,
+        interval: 10000,
+        pauseOnFocus: false,
+	      perPage: 3,
+        arrows: false,
+	      focus: 'center',
+        gap: '1.2em',
+        breakpoints: {
+          768: {
+            perPage: 2,
+            focus: 0,
+          },
+          576: {
+            perPage: 1,
+          }
+        }
+      } ).mount();
+    </script>
   </body>
 </html>
