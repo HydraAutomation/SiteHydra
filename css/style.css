@@ -28,12 +28,11 @@ body {
 
 .bloob {
     position: absolute;
-    mix-blend-mode: multiply;
     top: -20px;
     user-select: none;
     pointer-events: none;
     z-index: -1;
-    opacity: 0;
+    opacity: 20%;
     max-width: 100%;
 }
 
@@ -122,6 +121,12 @@ body {
     }
 }
 
+@media(min-width:576px) and (max-width:900px){
+    .bloob{
+        opacity: 0;
+    }
+}
+
 .main-subtitle {
     color: rgb(238, 238, 238);
     font-size: 22px;
@@ -144,7 +149,16 @@ body {
     min-width: 180px;
     backdrop-filter: 4px;
     margin-top: 30px;
+    transition: transform 0.2s;
+    text-decoration: none;
+    font-weight: bold;
 }
+
+button.know-more-button:hover{
+    color: #FF5159;
+    transform: scale(0.99);
+}
+
 
 .logo-first-section {
     position: absolute;
@@ -217,13 +231,12 @@ body {
 
 .second-bloob {
     position: absolute;
-    top: 850px;
-    mix-blend-mode: multiply;
+    top: 1000px;
     user-select: none;
     pointer-events: none;
     z-index: -1;
     max-width: 100%;
-    opacity: 0;
+    opacity: 20%;
 }
 
 /* Como funciona */
@@ -324,11 +337,22 @@ body {
     color: #FFFFFF;
 }
 
+.third-bloob{
+    position: absolute;
+    right: 0;
+    user-select: none;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 9%;
+    max-width: 100%;
+}
+
 @media(max-width:768px){
     .second-card {
         margin-top: 40px;
     }
 }
+
 
 /* Feedbacks */
 
