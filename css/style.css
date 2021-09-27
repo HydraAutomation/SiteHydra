@@ -195,7 +195,7 @@ button.know-more-button:hover{
 /* Quem somos */
 
 #quem-somos {
-    padding-top: 200px;
+    padding-top: 180px;
 }
 
 .subtitle-second {
@@ -241,7 +241,7 @@ button.know-more-button:hover{
 
 /* Como funciona */
 #como-funciona {
-    padding-top: 300px;
+    padding-top: 250px;
 }
 
 .subtitle-third {
@@ -274,7 +274,7 @@ button.know-more-button:hover{
 
 /* O que oferecemos */
 #o-que-oferecemos {
-    padding-top: 300px;
+    padding-top: 250px;
 }
 
 .product-card {
@@ -357,7 +357,7 @@ button.know-more-button:hover{
 /* Feedbacks */
 
 #feedbacks {
-    padding-top: 300px;
+    padding-top: 250px;
     padding-bottom: 40px;
 }
 
@@ -393,7 +393,7 @@ button.know-more-button:hover{
 
 /* Nosso Contato */
 #nosso-contato{
-    padding-top: 300px; 
+    padding-top: 250px; 
 }
 
 .contact-subtitle{
