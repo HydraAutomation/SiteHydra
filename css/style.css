@@ -149,7 +149,7 @@ body {
     min-width: 180px;
     backdrop-filter: 4px;
     margin-top: 30px;
-    transition: transform 0.2s;
+    transition: transform .2s;
     text-decoration: none;
     font-weight: bold;
 }
@@ -412,6 +412,16 @@ button.know-more-button:hover{
     justify-content: center;
     text-align: center;
     height: 100%;
+}
+
+.contact-instagram{
+    text-decoration: none;
+    color: red;
+    transition: .2s;
+}
+
+.contact-instagram:hover{
+    color: #FF5159 ;
 }
 
 /* Footer */
