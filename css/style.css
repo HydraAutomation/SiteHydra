@@ -274,6 +274,24 @@ body {
   }
 }
 
+.video-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.animation-gif{
+  width: 100%;
+  max-width:500px;
+}
+
+@media (max-width: 768px){
+  .video-container {
+    margin-top: 80px;
+  }
+}
+
 /* O que oferecemos */
 #o-que-oferecemos {
   padding-top: 250px;
